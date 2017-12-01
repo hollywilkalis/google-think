@@ -2,6 +2,11 @@
 margin-top: 10px;
 }
 
+#privacy-policy {
+  color: white;
+  text-decoration: underline;
+}
+
 nav {
   padding-left: 10px;
   padding-right: 10px;
@@ -11,4 +16,72 @@ nav {
   background-image: url("../img/shopping.jpg");
   background-size: cover;
   background-position: 50% 85%;
+  height: 100%;
+}
+
+.feature2 {
+  background-image: url("../img/gifts.jpg");
+  background-size: cover;
+  background-position: 50% 85%;
+}
+
+.trends, .dive {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.trends .card {
+  height: 70vh;
+}
+
+.trends .card .img {
+  height: 50%;
+}
+
+.tools .card {
+  height: 60vh;
+}
+
+.tools .card .img {
+  height: 50%;
+}
+
+.page-footer {
+  background-color: #3367d6;
+}
+
+.page-footer li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.title-bottom {
+  position:absolute;
+  bottom: 0;
+}
+
+.text-box {
+  position:absolute;
+  bottom: 3vh;
+  right: 3vw;
+}
+
+.trends .card-subtitle {
+  position:absolute;
+  bottom: 3vh;
+}
+
+.tools .card-subtitle {
+  position:absolute;
+  bottom: 4vh;
+}
+
+.tools .card-subtitle a {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.btn {
+  margin-top: 15px;
 }
