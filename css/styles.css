@@ -1,0 +1,14 @@
+.brand-logo {
+margin-top: 10px;
+}
+
+nav {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.feature1 {
+  background-image: url("../img/shopping.jpg");
+  background-size: cover;
+  background-position: 50% 85%;
+}
