@@ -12,12 +12,12 @@
     <title></title>
   </head>
   <body>
-    <div class="navbar">
+
+    <div class="navbar z-depth-0">
       <ul id="dropdown1" class="dropdown-content">
         <li><a href="#!">English-United States</a></li>
         <li><a href="#!">Espanol</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">three</a></li>
+        <li><a href="#!">French</a></li>
       </ul>
       <ul id="dropdown2" class="dropdown-content">
         <li><a href="#!">Data & Measurement</a></li>
@@ -34,43 +34,55 @@
         <li><a href="#!">Video</a></li>
       </ul>
       <nav class="white">
+        <ul id="slide-out" class="side-nav">
+          <li><a href="#!">Consumer Insights</a></li>
+          <li><div class="divider"></div></li>
+          <li><a href="#!">Data & Measurement</a></li>
+          <li><a href="#!">Experience & Design</a></li>
+          <li><a href="#!">Omnichannel</a></li>
+          <li><a href="#!">Programmatic Advertising</a></li>
+          <li><div class="divider"></div></li>
+          <li><a href="#!">Reports</a></li>
+          <li><a href="#!">Tools</a></li>
+          <li><div class="divider"></div></li>
+          <li><a href="#!">Emerging Technology</a></li>
+          <li><a href="#!">Search</a></li>
+          <li><a href="#!">Video</a></li>
+          <li><div class="divider"></div></li>
+          <li><a href="#!">Language</a></li>
+        </ul>
+
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons hide-on-large-only black-text">menu</i></a>
         <div class="nav-wrapper">
           <a href="#!" class="brand-logo"><img src="img/think-with-google-logo.png"></a>
-
           <ul class="right hide-on-med-and-down">
             <li><a class="dropdown-button grey-text text-darken-4" href="#!" data-activates="dropdown1">Language<i class="material-icons right">keyboard_arrow_down</i></a></li>
             <li><a href="#" class="grey-text text-darken-4">Consumer Insights</a></li>
             <!-- Dropdown Trigger -->
             <li><a class="dropdown-button grey-text text-darken-4" href="#!" data-activates="dropdown2">Marketing Resources<i class="material-icons right">keyboard_arrow_down</i></a></li>
             <li><a class="dropdown-button grey-text text-darken-4" href="#!" data-activates="dropdown3">Advertising Channels<i class="material-icons right">keyboard_arrow_down</i></a></li>
+            <li><a href="#!"><i class="material-icons">search</i></a></li>
           </ul>
         </div>
       </nav>
     </div>
 
     <div class="hero">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h3>Insights you want. Data you need.</h3>
-          </div>
+      <div class="row">
+        <div class="col s12 m12 l5">
+          <h3>Insights you want. Data you need.</h3>
+          <h5 class="hide-on-med-and-down">Stay on top of the latest and greatest</h5>
+          <a class="waves-effect waves-light btn blue darken-2 white-text hide-on-med-and-down">SUBSCRIBE</a>
         </div>
-        <div class="row hide-on-med-and-down">
-          <div class="col l3">
-            <h5>Stay on top of the latest and greatest</h5>
-            <a class="waves-effect waves-light btn blue darken-2 white-text">SUBSCRIBE</a>
-          </div>
-          <div class="col l8">
-            <img class="responsive-img right" src="img/mobile-search-hero.jpeg">
-            <div class="text-box">Over the past two years, searches for "best" in "low-consideration" categories have seen rapid growth. Learn more about this shift.</div>
-          </div>
+        <div class="col l8 hide-on-med-and-down">
+          <img class="img-bottom" src="img/mobile-search-hero.jpeg">
         </div>
       </div>
     </div>
 
-
     <div class="trends grey lighten-4">
-      <h4>Latest trends and stories</h4>
+      <h4 class="panel-header">Latest trends and stories</h4>
+
       <div class="row">
         <div class="grid-example col s12 m12 l6">
           <div class="card feature1">
@@ -94,7 +106,7 @@
         <div class="grid-example col s12 m6 l3">
           <div class="card">
             <div class="card-image">
-              <img src="img/football-player.jpg">
+              <img src="img/water.jpg">
             </div>
             <div class="card-content">
               <div class="card-title">How Nestle Waters reclaimed the customer relationship</div>
@@ -107,7 +119,7 @@
         <div class="grid-example col s12 m6 l3">
           <div class="card">
             <div class="card-image">
-              <img src="img/football-player.jpg">
+              <img src="img/customer.jpg">
             </div>
             <div class="card-content">
               <span class="card-title">Are you worth it? Your customer wants to know.</span>
@@ -118,7 +130,7 @@
         <div class="grid-example col s12 m6 l3">
           <div class="card">
             <div class="card-image">
-              <img src="img/football-player.jpg">
+              <img src="img/video.jpg">
             </div>
             <div class="card-content">
               <div class="card-title">3 marketing myths we debunked by studying YouTube's audience</div>
@@ -136,39 +148,40 @@
         </div>
       </div>
     </div>
+
     <div class="dive">
-      <div class="container">
+
+      <div class="row">
         <h4>Take a deeper dive</h4>
-        <div class="row">
-          <div class="col s12 m6 l4">
-            <h5>Marketing Resources <i class="material-icons">wifi_tethering</i></h5>
-            <ul>
-              <li><a href="#">Data & Measurement</a></li>
-              <li><a href="#">Experience & Design</a></li>
-              <li><a href="#">Omnichannel</a></li>
-              <li><a href="#">Programmatic Advertising</a></li>
-            </ul>
-          </div>
-          <div class="col s12 m6 l4">
-            <h5>Advertising Channels <i class="material-icons">show_chart</i></h5>
-            <ul>
-              <li><a href="#">Emerging Technology</a></li>
-              <li><a href="#">Search</a></li>
-              <li><a href="#">Omnichannel</a></li>
-            </ul>
-          </div>
-          <div class="col s12 m6 pull-m6 l4">
-            <h5>Consumer Insights <i class="material-icons">shopping_basket</i></h5>
-            <p>Learn about consumer trends, from how people are using apps to video consumption on mobile.</p>
-            <ul>
-              <li><a href="#">Consumer Insights</a></li>
-            </ul>
-          </div>
+        <div class="col s12 m6 l4">
+          <h5>Marketing Resources <i class="material-icons">wifi_tethering</i></h5>
+          <ul>
+            <li><a href="#">Data & Measurement</a></li>
+            <li><a href="#">Experience & Design</a></li>
+            <li><a href="#">Omnichannel</a></li>
+            <li><a href="#">Programmatic Advertising</a></li>
+          </ul>
+        </div>
+        <div class="col s12 m6 l4">
+          <h5>Advertising Channels <i class="material-icons">show_chart</i></h5>
+          <ul>
+            <li><a href="#">Emerging Technology</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Omnichannel</a></li>
+          </ul>
+        </div>
+        <div class="col s12 m6 pull-m6 l4">
+          <h5>Consumer Insights <i class="material-icons">shopping_basket</i></h5>
+          <p>Learn about consumer trends, from how people are using apps to video consumption on mobile.</p>
+          <ul>
+            <li><a href="#">Consumer Insights</a></li>
+          </ul>
         </div>
       </div>
     </div>
 
     <div class="tools">
+
       <div class="row">
         <div class="col s12 m6 l3">
           <div class="card">
@@ -237,21 +250,31 @@
 
     <footer class="page-footer">
       <div class="container">
+
         <div class="row">
           <div class="col s12 l6">
             <h3>Get the latest data, insights, and inspiration from Google</h3>
           </div>
           <div class="col s12 l6">
-            <p>Email address</p>
-            <p>Company</p>
-            <p>Sign up to receive your selected communications from Google Inc. and its affiliates. Your information will be used in accordance with Google's <a id="privacy-policy" href="https://www.google.com/policies/privacy/" target="_blank">privacy policy</a>. You may opt out at any time.</p>
-            <div class="center-align">
-              <a class="waves-effect waves-light btn white blue-text text-darken-2">SUBSCRIBE</a>
+            <div class="form">
+              <div class="input-field">
+                <input placeholder="E-mail Address" id="email" type="text">
+                <input placeholder="Company" id="company" type="text">
+              <p>Sign up to receive your selected communications from Google Inc. and its affiliates. Your information will be used in accordance with Google's <a id="privacy-policy" href="https://www.google.com/policies/privacy/" target="_blank">privacy policy</a>. You may opt out at any time.</p>
+              </div>
+              <div class="center-align">
+                <a class="waves-effect waves-light btn white blue-text text-darken-2">SUBSCRIBE</a>
+              </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="row">
+      <div class="row">
+        <div class="col s12 m12 l1">
+          <img src="img/google_logo-white.png" class="responsive-img">
+        </div>
+        <div class="col s12 m12 l11">
           <li>About Google</li>
           <li>Products</li>
           <li>Advertising</li>
@@ -262,5 +285,6 @@
         </div>
       </div>
     </footer>
+    
   </body>
 </html>

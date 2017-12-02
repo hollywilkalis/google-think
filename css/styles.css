@@ -1,5 +1,5 @@
 .brand-logo {
-margin-top: 10px;
+  margin-top: 10px;
 }
 
 #privacy-policy {
@@ -25,13 +25,24 @@ nav {
   background-position: 50% 85%;
 }
 
+.hero {
+  position: relative;
+}
+
+.img-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 90%;
+}
+
 .trends, .dive {
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
 .trends .card {
-  height: 70vh;
+  height: 80vh;
 }
 
 .trends .card .img {
@@ -39,11 +50,11 @@ nav {
 }
 
 .tools .card {
-  height: 60vh;
+  height: 80vh;
 }
 
 .tools .card .img {
-  height: 50%;
+  height: 40%;
 }
 
 .page-footer {
@@ -52,8 +63,7 @@ nav {
 
 .page-footer li {
   display: inline-block;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 12px;
 }
 
 .title-bottom {
@@ -67,9 +77,21 @@ nav {
   right: 3vw;
 }
 
+.panel-header {
+  padding-left: 20px;
+}
+
 .trends .card-subtitle {
   position:absolute;
   bottom: 3vh;
+}
+
+.dive  {
+  padding: 20px;
+}
+
+.div ul {
+  margin-bottom: 10px;
 }
 
 .tools .card-subtitle {
@@ -84,4 +106,8 @@ nav {
 
 .btn {
   margin-top: 15px;
+}
+
+.page-footer {
+  padding-bottom: 20px;
 }
